@@ -1,134 +1,162 @@
 export const skills = [
   {
     id: 1,
-    name: "HTML"
+    name: "HTML",
   },
   {
     id: 2,
-    name: "CSS"
+    name: "CSS",
   },
   {
     id: 3,
-    name: "Java Script"
+    name: "Java Script",
   },
   {
     id: 4,
-    name: "React JS"
+    name: "React JS",
   },
   {
     id: 5,
-    name: "Next JS"
+    name: "Next JS",
   },
   {
     id: 6,
-    name: "MERN Stack"
+    name: "MERN Stack",
   },
   {
     id: 7,
-    name: "C"
+    name: "C",
   },
   {
     id: 8,
-    name: "C++"
+    name: "C++",
   },
   {
     id: 9,
-    name: "Java"
+    name: "Java",
   },
   {
     id: 10,
-    name: "Python"
+    name: "Python",
   },
   {
     id: 11,
-    name: "R"
+    name: "Docker",
   },
   {
     id: 12,
-    name: "Data Structures"
+    name: "Data Structures",
   },
   {
     id: 13,
-    name: "Compiler Design"
+    name: "Compiler Design",
   },
   {
     id: 14,
-    name: "lex"
+    name: "CI/CD Pipelines",
   },
   {
     id: 15,
-    name: "yacc"
+    name: "Raspberry Pi",
   },
   {
     id: 16,
-    name: "Operating System"
+    name: "Operating System",
   },
   {
     id: 17,
-    name: "Computer Networking"
+    name: "Computer Networking",
   },
   {
     id: 18,
-    name: "Database Technology"
+    name: "Database Technology",
   },
   {
     id: 19,
-    name: "MySql"
+    name: "MySql",
   },
   {
     id: 20,
-    name: "Mongo DB"
+    name: "Mongo DB",
   },
   {
     id: 21,
-    name: "API design"
+    name: "API design",
   },
   {
     id: 22,
-    name: "Software Debugging"
+    name: "Software Debugging",
   },
   {
     id: 23,
-    name: "Version control systems"
+    name: "Version control systems",
   },
   {
     id: 24,
-    name: "Git / GitHub"
+    name: "Git / GitHub",
   },
   {
     id: 25,
-    name: "Jira"
+    name: "Jira",
   },
   {
     id: 26,
-    name: "Agile"
+    name: "Agile",
   },
   {
     id: 27,
-    name: "Project Coordination"
+    name: "Project Coordination",
   },
   {
     id: 28,
-    name: "Machine Learning"
+    name: "Machine Learning",
   },
   {
     id: 29,
-    name: "Data Science"
+    name: "Data Science",
   },
   {
     id: 30,
-    name: "Cloud Computing"
+    name: "Cloud Computing",
   },
   {
     id: 31,
-    name: "IoT"
+    name: "IoT",
   },
   {
     id: 32,
-    name: "Blockchain"
+    name: "Blockchain",
   },
   {
     id: 33,
-    name: "Arduino"
-  }
-]; 
+    name: "Arduino",
+  },
+  {
+    id: 34,
+    name: "Microcontroller Programming",
+  },
+  {
+    id: 35,
+    name: "Edge Computing",
+  },
+  {
+    id: 36,
+    name: "Object Oriented Programming",
+  },
+  {
+    id: 37,
+    name: "Design Patterns",
+  },
+  {
+    id: 38,
+    name: "Software Architecture",
+  },
+  {
+    id: 39,
+    name: "Team Leadership",
+  },
+  {
+    id: 40,
+    name: "Technical Documentation",
+  },
+];
