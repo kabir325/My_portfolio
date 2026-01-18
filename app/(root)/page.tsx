@@ -60,7 +60,6 @@ export default function Home() {
                 <div className="flex flex-col items-center mt-4 space-y-3">
                   <div className="flex justify-center space-x-4">
                     <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                    <span className="text-green-400 text-sm">Available for opportunities</span>
                   </div>
                   <div className="nokia-banner">
                     <span className="nokia-logo-text">NOKIA</span>
