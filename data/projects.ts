@@ -1,5 +1,13 @@
 export const projectsData = [
   {
+    id: "project-id-1",
+    name: "Smart Farming using IoT",
+    description:
+      "Developed an intelligent farming system integrating IoT sensors, Fog Computing, and AI to assist farmers in crop disease detection, soil health monitoring, and irrigation management through a natural language–based interface.",
+    techStack: ["Python", "IoT", "AI", "Agriculture"],
+  },
+
+  {
     id: "project-id-10",
     name: "Mini File System in C",
     description:

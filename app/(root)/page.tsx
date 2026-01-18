@@ -34,7 +34,7 @@ export default function Home() {
         <div className={`relative z-10 about-section min-h-screen ${isVisible ? 'fade-in-up' : 'opacity-0'}`}>
           {/* Image Section */}
           <div className="image-section">
-            <div className="relative group">
+            <div className="relative group flex flex-col items-center">
               <div className="w-[280px] h-[280px] relative">
                 {/* Glowing ring */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1 pulse-glow">
@@ -54,10 +54,18 @@ export default function Home() {
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-2 gradient-text">
                   Kabir Sahu
                 </h1>
-                <p className="text-xl text-gray-300 mono">Software Engineer</p>
-                <div className="flex justify-center mt-4 space-x-4">
-                  <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                  <span className="text-green-400 text-sm">Available for opportunities</span>
+                <p className="text-xl text-gray-300 mono">
+                  Software Engineer • R&amp;D Intern @ Nokia
+                </p>
+                <div className="flex flex-col items-center mt-4 space-y-3">
+                  <div className="flex justify-center space-x-4">
+                    <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    <span className="text-green-400 text-sm">Available for opportunities</span>
+                  </div>
+                  <div className="nokia-banner">
+                    <span className="nokia-logo-text">NOKIA</span>
+                    <span className="nokia-role-text">Research &amp; Development Intern</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -117,6 +125,118 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Experience Section */}
+      <section className="relative min-h-[60vh] bg-gradient-to-br from-gray-950 via-black to-gray-900 py-20 overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute top-10 left-10 w-64 h-64 bg-blue-600/15 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-72 h-72 bg-sky-400/10 rounded-full blur-3xl"></div>
+        </div>
+        <div className="relative z-10 max-w-6xl mx-auto px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold text-white mb-4">
+              Professional <span className="gradient-text">Experience</span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+              Hands-on industry experience building reliable, scalable software
+            </p>
+          </div>
+          <div className="experience-timeline">
+            <div className={`experience-card ${isVisible ? 'fade-in-up' : 'opacity-0'}`}>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="experience-dot"></div>
+                  <div>
+                    <h3 className="experience-role">Student Intern – R&amp;D</h3>
+                    <p className="experience-company">Nokia, Bangalore</p>
+                  </div>
+                </div>
+                <span className="experience-period">Jan 2026 – Present</span>
+              </div>
+              <div className="experience-pill-row">
+                <span className="experience-pill">NSP R&amp;D</span>
+                <span className="experience-pill">Network management</span>
+                <span className="experience-pill">Telecom systems</span>
+              </div>
+              <ul className="experience-description-list">
+                <li>
+                  Working as a Student Intern within the Network Services Platform (NSP) Research
+                  &amp; Development team.
+                </li>
+                <li>
+                  Contributing to the development, testing, and analysis of software components
+                  related to network management and orchestration.
+                </li>
+                <li>
+                  Collaborating with engineers to understand large-scale telecom systems,
+                  networking protocols, and software lifecycle practices.
+                </li>
+              </ul>
+            </div>
+
+            <div className={`experience-card ${isVisible ? 'fade-in-up delay-200' : 'opacity-0'}`}>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="experience-dot"></div>
+                  <div>
+                    <h3 className="experience-role">
+                      Teaching Assistant – Computer Network Security &amp; DSA
+                    </h3>
+                    <p className="experience-company">PES University, Bangalore</p>
+                  </div>
+                </div>
+                <span className="experience-period">Aug 2025 – Dec 2025</span>
+              </div>
+              <div className="experience-pill-row">
+                <span className="experience-pill">CNS labs</span>
+                <span className="experience-pill">DSA mentoring</span>
+                <span className="experience-pill">Content development</span>
+              </div>
+              <ul className="experience-description-list">
+                <li>
+                  Assisted with labs, mentoring, and evaluation in Computer Network Security (CNS)
+                  and Data Structures &amp; Algorithms (DSA) courses.
+                </li>
+                <li>Supported students with technical concepts in networking and algorithms.</li>
+                <li>
+                  Helped improve instructional quality through content and resource development.
+                </li>
+              </ul>
+            </div>
+
+            <div className={`experience-card ${isVisible ? 'fade-in-up delay-400' : 'opacity-0'}`}>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="experience-dot"></div>
+                  <div>
+                    <h3 className="experience-role">
+                      Technical Intern – Network &amp; Salesforce Implementation
+                    </h3>
+                    <p className="experience-company">Whistling Woods Resort, Dandeli</p>
+                  </div>
+                </div>
+                <span className="experience-period">June 2025 – Aug 2025</span>
+              </div>
+              <div className="experience-pill-row">
+                <span className="experience-pill">Network upgrades</span>
+                <span className="experience-pill">Salesforce rollout</span>
+                <span className="experience-pill">Staff onboarding</span>
+              </div>
+              <ul className="experience-description-list">
+                <li>
+                  Assisted in deploying network infrastructure upgrades across resort systems.
+                </li>
+                <li>
+                  Contributed to the customization and rollout of Salesforce CRM for operations.
+                </li>
+                <li>
+                  Conducted onboarding workshops and offered technical support for resort staff.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Education Section */}
       <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 py-20 overflow-hidden">
         <div className="absolute inset-0">
@@ -143,7 +263,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-white mb-2">BTech. in Computer Science</h3>
               <p className="text-lg text-gray-300 mb-2">PES University</p>
               <div className="inline-flex items-center px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm font-semibold border border-green-500/30">
-                CGPA: 8.11
+                CGPA: 8.16
               </div>
             </div>
             

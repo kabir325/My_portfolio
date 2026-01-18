@@ -210,7 +210,7 @@
 .education-timeline-enhanced::before {
   content: '';
   position: absolute;
-  left: 20px;
+  left: 10px;
   top: 0;
   bottom: 0;
   width: 2px;
@@ -280,6 +280,97 @@
 .education-block:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.nokia-banner {
+  @apply inline-flex items-center px-4 py-2 rounded-full border text-xs font-semibold tracking-wider uppercase space-x-2;
+  background: linear-gradient(90deg, #124191, #00a0e4);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #f9fafb;
+}
+
+.nokia-logo-text {
+  @apply font-extrabold text-sm;
+  letter-spacing: 0.2em;
+}
+
+.nokia-role-text {
+  @apply text-[0.7rem] text-gray-100;
+}
+
+.experience-timeline {
+  @apply max-w-4xl mx-auto relative;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #124191, #00a0e4);
+}
+
+.experience-card {
+  @apply bg-black/40 backdrop-blur-xl border border-white/15 rounded-2xl p-8 shadow-xl transition-all duration-500 ease-out ml-12 relative;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  left: -44px;
+  top: 24px;
+  width: 12px;
+  height: 12px;
+  background: rgba(15, 23, 42, 1);
+  border: 3px solid #124191;
+  border-radius: 9999px;
+  box-shadow: 0 0 0 4px rgba(15, 23, 42, 0.9);
+}
+
+.experience-card:hover {
+  transform: translateY(-6px) translateX(10px);
+  box-shadow: 0 22px 45px rgba(15, 23, 42, 0.8);
+}
+
+.experience-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.8);
+}
+
+.experience-role {
+  @apply text-xl font-bold text-white;
+}
+
+ .experience-company {
+  @apply text-sm font-semibold text-sky-100;
+}
+
+.experience-period {
+  @apply text-sm font-medium text-gray-100;
+}
+
+.experience-pill-row {
+  @apply flex flex-wrap gap-2 mb-4 mt-2;
+}
+
+.experience-pill {
+  @apply px-3 py-1 rounded-full text-xs font-semibold;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.25), rgba(56, 189, 248, 0.25));
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  color: #e5f2ff;
+}
+
+.experience-description {
+  @apply text-gray-100 leading-relaxed text-sm md:text-base;
+}
+
+.experience-description-list {
+  @apply list-disc list-outside text-gray-100 text-sm md:text-base leading-relaxed pl-6 space-y-1;
 }
 
 @media (max-width: 768px) {

@@ -16,14 +16,5 @@ export const currentProjectsData = [
     status: 'In Progress',
     githubLink: undefined,
     deploymentLink: undefined
-  },
-  {
-    id: 'current-project-3',
-    name: 'Smart Farming using IoT',
-    description: 'Developed an intelligent farming system integrating IoT sensors, Fog Computing, and AI to assist farmers in crop disease detection, soil health monitoring, and irrigation management through a natural language–based interface.',
-    techStack: ['Python', 'IoT', 'AI', 'Agriculture'],
-    status: 'In Progress',
-    githubLink: undefined,
-    deploymentLink: undefined
   }
 ];
