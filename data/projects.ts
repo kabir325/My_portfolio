@@ -1,3 +1,5 @@
+import { describe } from "node:test";
+
 export const projectsData = [
   {
     id: "project-id-1",
@@ -6,6 +8,30 @@ export const projectsData = [
       "Developed an intelligent farming system integrating IoT sensors, Fog Computing, and AI to assist farmers in crop disease detection, soil health monitoring, and irrigation management through a natural language–based interface.",
     techStack: ["Python", "IoT", "AI", "Agriculture"],
   },
+  {
+    id: "project-id-12",
+    name: "PaperPi",
+    description:"Developed a SaaS that allows users to host a server on a Raspberry Pi. Which enables users to upload pdf files and view them, make notes, maintain a TODO list, all on the browser",
+    techStack:["Python", "Flask", "HTML", "CSS", "JavaScript"],
+    githubLink:"https://github.com/kabir325/PaperPi"
+  },
+
+  {
+    id:"project-id-13",
+    name:"GitGuide",
+    description:"An AI-powered Execution Engine for Git Operations integration with ollama",
+    techStack:"TypeScript, npm, Node.js",
+    githubLink:"https://github.com/kabir325/GitGuide"
+  },
+
+  {
+  id: "project-id-14",
+  name:"TodoTracker",
+  description:"TaskFlow is a local-first, repo-native task tracker. It stores tasks inside .taskflow/ so your task history is versioned with Git and works in any editor.",
+  techStack:"Python",
+  githubLink:"https://github.com/kabir325/Todo_Tracker"
+  },
+
 
   {
     id: "project-id-10",

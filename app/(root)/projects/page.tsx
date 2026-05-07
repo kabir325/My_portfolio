@@ -65,7 +65,7 @@ export default function ProjectsPage() {
                         {project.techStack && (
                           <div className="mb-6">
                             <div className="flex flex-wrap gap-2">
-                              {project.techStack.map((tech, techIndex) => (
+                              {Array.isArray(project.techStack) ? project.techStack.map((tech: string, techIndex) => (
                                 <span 
                                   key={tech} 
                                   className="tech-item-enhanced"
@@ -73,7 +73,7 @@ export default function ProjectsPage() {
                                 >
                                   {tech}
                                 </span>
-                              ))}
+                              )) : null}
                             </div>
                           </div>
                         )}
