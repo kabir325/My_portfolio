@@ -219,10 +219,6 @@ export default function ProjectsPage() {
                 Top Projects First
               </h2>
             </div>
-            <p className="max-w-2xl text-sm leading-6 text-gray-300 md:text-base">
-              These are the strongest portfolio pieces to lead with in interviews,
-              applications, and recruiter reviews.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
