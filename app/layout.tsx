@@ -19,9 +19,39 @@ const fragmentMono = localFont({
 });
 
 
+const description =
+  "Kabir Sahu - software engineer and R&D intern at Nokia (NSP). Projects in developer tooling, observability, distributed systems, homelab infrastructure, and AI.";
+
 export const metadata: Metadata = {
-  title: "Kabir Sahu",
-  description: "Portfolio of Kabir Sahu",
+  title: {
+    default: "Kabir Sahu | Software Engineer",
+    template: "%s | Kabir Sahu",
+  },
+  description,
+  authors: [{ name: "Kabir Sahu", url: "https://github.com/kabir325" }],
+  keywords: [
+    "Kabir Sahu",
+    "software engineer",
+    "developer tools",
+    "observability",
+    "distributed systems",
+    "Python",
+    "Flask",
+    "Next.js",
+    "portfolio",
+  ],
+  openGraph: {
+    title: "Kabir Sahu | Software Engineer",
+    description,
+    type: "website",
+    images: [{ url: "/prof.jpg", alt: "Kabir Sahu" }],
+  },
+  twitter: {
+    card: "summary",
+    title: "Kabir Sahu | Software Engineer",
+    description,
+    images: ["/prof.jpg"],
+  },
 };
 
 export default function RootLayout({

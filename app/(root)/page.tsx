@@ -1,24 +1,16 @@
 'use client'
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { skills } from '@/data/skills';
 
 export default function Home() {
-  const [isMobile, setIsMobile] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 530);
-    };
-
-    window.addEventListener('resize', handleResize);
-    handleResize();
-    
     // Trigger animations after component mounts
-    setTimeout(() => setIsVisible(true), 100);
-
-    return () => window.removeEventListener('resize', handleResize);
+    const timer = window.setTimeout(() => setIsVisible(true), 100);
+    return () => window.clearTimeout(timer);
   }, []);
 
   return (
@@ -61,6 +53,27 @@ export default function Home() {
                   <div className="nokia-banner">
                     <span className="nokia-logo-text">NOKIA</span>
                     <span className="nokia-role-text">Research &amp; Development Intern</span>
+                  </div>
+                  <div className="flex flex-wrap justify-center gap-3 pt-2">
+                    <Link href="/projects" className="btn-primary">
+                      View Projects
+                    </Link>
+                    <a
+                      href="https://github.com/kabir325"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-secondary"
+                    >
+                      GitHub
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/kabir-sahu-b7401b208/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-secondary"
+                    >
+                      LinkedIn
+                    </a>
                   </div>
                 </div>
               </div>

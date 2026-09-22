@@ -1,7 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import Sidebar from './sidebar';
 
@@ -41,6 +40,7 @@ const Navbar = () => {
             {isMobile ? (
               <button 
                 onClick={() => setIsSidebarOpen(true)}
+                aria-label="Open menu"
                 className="p-2 rounded-lg hover:bg-white/10 transition-colors duration-200"
               >
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

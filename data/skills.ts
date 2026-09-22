@@ -9,15 +9,15 @@ export const skills = [
   },
   {
     id: 3,
-    name: "Java Script",
+    name: "JavaScript",
   },
   {
     id: 4,
-    name: "React JS",
+    name: "React",
   },
   {
     id: 5,
-    name: "Next JS",
+    name: "Next.js",
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ export const skills = [
   },
   {
     id: 16,
-    name: "Operating System",
+    name: "Operating Systems",
   },
   {
     id: 17,
@@ -73,15 +73,15 @@ export const skills = [
   },
   {
     id: 19,
-    name: "MySql",
+    name: "MySQL",
   },
   {
     id: 20,
-    name: "Mongo DB",
+    name: "MongoDB",
   },
   {
     id: 21,
-    name: "API design",
+    name: "API Design",
   },
   {
     id: 22,
@@ -89,7 +89,7 @@ export const skills = [
   },
   {
     id: 23,
-    name: "Version control systems",
+    name: "Version Control Systems",
   },
   {
     id: 24,
@@ -158,5 +158,25 @@ export const skills = [
   {
     id: 40,
     name: "Technical Documentation",
+  },
+  {
+    id: 41,
+    name: "TypeScript",
+  },
+  {
+    id: 42,
+    name: "Flask",
+  },
+  {
+    id: 43,
+    name: "SQLite",
+  },
+  {
+    id: 44,
+    name: "gRPC",
+  },
+  {
+    id: 45,
+    name: "Observability",
   },
 ];

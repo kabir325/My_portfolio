@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { currentProjectsData } from '@/data/currentProjects';
-import { projectsData, type Project, type ProjectCategory } from '@/data/projects';
+import { projectsData, type ProjectCategory } from '@/data/projects';
 
 type FilterValue = 'All' | ProjectCategory;
 
