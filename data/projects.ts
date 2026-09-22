@@ -41,6 +41,17 @@ export const projectsData: Project[] = [
     featuredRank: 1,
   },
   {
+    id: "project-id-20",
+    name: "FlaskPulse",
+    description:
+      "Built a drop-in observability SDK for Flask: one line of setup instruments every route to track traffic, error rates, and p50/p95/p99 latency using mergeable log-bucketed histograms (under 5% error, fixed memory per endpoint). Exceptions are grouped by stack fingerprint, and multi-resolution rollups persist to SQLite in background batches, served through a JSON API, a local dashboard, and a CLI. Every hook is guarded so it can never change an app's responses, backed by 490 tests.",
+    githubLink: "https://github.com/kabir325/FlaskPulse",
+    techStack: ["Python", "Flask", "SQLite", "Click", "pytest", "mypy"],
+    categories: ["Developer Tools", "Data Analytics", "Web Apps"],
+    featured: true,
+    featuredRank: 2,
+  },
+  {
     id: "project-id-18",
     name: "Nimbus",
     description:
@@ -49,7 +60,7 @@ export const projectsData: Project[] = [
     techStack: ["Java", "Gradle", "gRPC", "DAG Scheduler", "JSON"],
     categories: ["Developer Tools", "Distributed Systems", "Systems Programming"],
     featured: true,
-    featuredRank: 2,
+    featuredRank: 3,
   },
   {
     id: "project-id-16",
@@ -60,7 +71,7 @@ export const projectsData: Project[] = [
     techStack: ["Next.js", "Flask", "Ollama", "Python", "Async UX"],
     categories: ["AI & ML", "Web Apps"],
     featured: true,
-    featuredRank: 3,
+    featuredRank: 4,
   },
   {
     id: "project-id-19",
@@ -71,7 +82,7 @@ export const projectsData: Project[] = [
     techStack: ["Python", "REST API", "SQLite", "Docker", "Raspberry Pi"],
     categories: ["Homelab & Infra", "Developer Tools", "Web Apps"],
     featured: true,
-    featuredRank: 4,
+    featuredRank: 5,
   },
   {
     id: "project-id-17",
@@ -82,7 +93,7 @@ export const projectsData: Project[] = [
     techStack: ["Python", "Whisper", "Ollama", "Raspberry Pi", "JSONL"],
     categories: ["AI & ML", "Data Analytics", "Web Apps"],
     featured: true,
-    featuredRank: 5,
+    featuredRank: 6,
   },
   {
     id: "project-id-1",
